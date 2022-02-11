@@ -5,6 +5,9 @@
 width: 100%;
 height: 100%;
 }
+{
+    color:white
+}
 .icon
 {
     display: inline-block;
@@ -24,6 +27,7 @@ height: 100%;
     margin-block: 4px;
     border: solid black;
     display: block;
+    padding-left: 60px;
 }
 .imgs
 {
@@ -40,11 +44,12 @@ height: 100%;
      float: right;
     display: inline-block; */
     
-        float: right;
-        width: 2px;
-        margin-right: 10px;
+         float: right;
+        width: 200px;
+        margin-left: 90px;
+        margin-right: 100px;
         margin-top: 18px;
-        color: #000;
+        color: rgb(94, 41, 216);
         background: white;
         /* color: black; */
         /* font-size: 17px; */
@@ -55,11 +60,11 @@ height: 100%;
 }
 .fb
 {
-    width: 20px;
-    height: 20px;
-    border: 0px solid white;
-    background-color: white;
-    color: blue;
+    width: 23px;
+    height: 40px;
+    border: 1px solid rgb(10, 9, 9);
+    background-color: rgb(187, 14, 14);
+    color: rgb(25, 223, 58);
 }
 .s1i
 {
@@ -127,7 +132,7 @@ height: 100%;
     /* margin-bottom: 4px; */
     border: solid black;
     display: inline-block;
-    width: 760px;
+    width: 700px;
     height: 650px;
     margin-bottom: 0px;
     margin-top: 4px;
@@ -147,7 +152,7 @@ height: 100%;
     border: solid black;
     display: inline-block;
     padding-right: 50px;
-    width: 140px;
+    width: 120px;
     height: 650px;
 }
 img{
