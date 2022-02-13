@@ -34,7 +34,9 @@ nav li:hover {
   background-size: cover;
   text-align: center;
   padding: 50px 0;
-  margin-bottom: 50px;
+  margin-bottom: 50px; 
+  height: 300px;
+  
   
   
 }
@@ -57,7 +59,10 @@ nav li:hover {
   text-decoration: none;
 }
 #hero a:hover {
-  padding: 5px 10px;
+  padding-top: 2px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right:10px;
   background: #3F8DA7;
   color: white;
   /* margin-left: 45%; */
@@ -66,9 +71,9 @@ nav li:hover {
 .three-col img {
   border-radius: 50%;
   border: 3px solid #3F8DA7;
-  /* height: 200px;
-  width: 200px; */
-  margin: 25px 0;
+  height: 200px;
+  width: 200px; 
+  margin: 20px 0px;
   vertical-align: middle; 
 } 
  header h1 {
@@ -91,8 +96,10 @@ body {
   background: white;
   border: 5px solid #3F8DA7;
   color: #3F8DA7;
-  padding: 5px 10px;
+  padding: 3px 10px;
+  width: .01px;
   text-decoration: none;
+  
 }
 .three-col
 {
@@ -117,6 +124,13 @@ footer {
   margin: 40px 0;
 }
  
+.footer1 a
+{
+  
+  color: white;
+  text-decoration: none;
+  margin-bottom: 8px;
+}
 .footer1 li {
   display: inline-block;
   margin: 0 25px;
@@ -125,7 +139,7 @@ footer {
 {
   width: 35px;
   height: 35px;
-  margin-bottom: 40px;
+  margin-bottom: 40px; 
 }
 .three-col a:hover {
   padding: 5px 10px;
@@ -133,7 +147,15 @@ footer {
   color: white;
   /* margin-left: 45%; */
 }
-
+/* .dog
+{
+  margin-top: 0;
+  border: solid red;
+}
+.btn
+{
+  margin-bottom: 500px;
+}  */
 
 /* .img1
 {
