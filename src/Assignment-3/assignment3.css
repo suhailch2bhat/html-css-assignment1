@@ -99,3 +99,12 @@ iframe{
     
     margin-left:90px ;
 }
+@media  (max-width: 70%) {
+    /* For mobile phones: */
+     .p1h1
+     {
+         background-color: aqua;
+     }
+      
+    
+  }
