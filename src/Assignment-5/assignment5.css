@@ -4,11 +4,21 @@
 .container, .content {
 width: 100%;
 height: 100%;
+
 }
-.first
+.back
 {
-  width: 100%;
-  height: 300px;
+  padding-top: 30px;
+  background-color: rgba(238,238,238,255);
+  padding-bottom: 20px;
+}
+.card
+{
+  display: flex; 
+  margin-left: 60px;
+  margin-top: 60px;
+  margin-right: 40px;
+  width: 98%;
 }
 .second
 {
@@ -18,18 +28,21 @@ height: 300px;
 }
 .img1
 {
-     
-    width: 45%;
-    height: 300px;
-    display: inline-block;
-    border: solid black;
+  
+    background: rgb(74, 238, 74); 
+    width: 48%;
+    height: 500px;
+    display: flex;
+    /* border: solid black; */
 }
 .btn
 {
-    margin-top: 0%;
-    border: solid black;
-    width: 35%;
-    height: 300px;
-    float: right;
-    display: inline-block;
+   background-color: white;
+    text-align: center;
+    /* margin-top: 0%; */
+    /* border: solid black; */
+    width: 48%;
+    height: 500px;
+    float: right; 
+    /* display: flex; */
 }
